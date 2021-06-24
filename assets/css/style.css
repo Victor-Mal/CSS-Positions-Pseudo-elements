@@ -1,0 +1,33 @@
+.cards {
+    display: inline-block;
+    margin: 20px;
+    min-width: 350px;
+    border-radius: 5%;
+    
+}
+.wrapper {
+    padding: 10% 15%;
+}
+.c1 {
+    background: linear-gradient(to right, #f9c0a3, #e5778f);
+}
+
+.c2 {
+    background: linear-gradient(to right, #8dc9f6, #1188dc);
+}
+
+.c3 {
+    background: linear-gradient(to right, #7fdad5, #02cfb6);
+}
+
+.content {
+font-size: 1.2rem;
+}
+
+.cash {
+    font-size: 1.8rem;
+}
+
+.changes {
+    font-size: 1rem;
+}
