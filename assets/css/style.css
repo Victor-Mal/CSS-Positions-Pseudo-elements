@@ -1,9 +1,11 @@
 .cards {
     display: inline-block;
     margin: 20px;
-    min-width: 350px;
+    min-width: 400px; 
     border-radius: 5%;
-    
+    font-weight: bolder;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .wrapper {
     padding: 10% 15%;
@@ -30,4 +32,8 @@ font-size: 1.2rem;
 
 .changes {
     font-size: 1rem;
+}
+.c1 .content::after {
+    content: "";
+    background-image: url(../icons_svg/line.svg);
 }
