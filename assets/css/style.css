@@ -2,15 +2,18 @@
     display: inline-block;
     position: relative;
     margin: 20px;
-    min-width: 400px; 
-    border-radius: 5%;
+    min-width: 400px;
+    border-radius: 2%;
     font-weight: bolder;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
 }
+
 .wrapper {
-    padding: 10% 15%;
+    padding: 5% 10%;
 }
+
 .c1 {
     background: linear-gradient(to right, #f9c0a3, #e5778f);
 }
@@ -24,7 +27,7 @@
 }
 
 .content {
-font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 .cash {
@@ -34,6 +37,7 @@ font-size: 1.4rem;
 .changes {
     font-size: 1rem;
 }
+
 .c1 .content::after {
     content: "";
     background: url(../icons_svg/line.svg) no-repeat;
@@ -51,6 +55,7 @@ font-size: 1.4rem;
     height: 30px;
     width: 30px;
 }
+
 .c3 .content::after {
     content: "";
     background: url(../icons_svg/diamond.svg) no-repeat;
@@ -60,3 +65,26 @@ font-size: 1.4rem;
     width: 30px;
 }
 
+.cards::after {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    top: -70px;
+    left: 280px;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.cards::before {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    top: 130px;
+    left: 200px;
+    background-color: white;
+    opacity: 0.3;
+}
