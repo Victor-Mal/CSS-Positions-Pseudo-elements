@@ -1,5 +1,6 @@
 .cards {
     display: inline-block;
+    position: relative;
     margin: 20px;
     min-width: 400px; 
     border-radius: 5%;
@@ -23,7 +24,7 @@
 }
 
 .content {
-font-size: 1.2rem;
+font-size: 1.4rem;
 }
 
 .cash {
@@ -35,5 +36,27 @@ font-size: 1.2rem;
 }
 .c1 .content::after {
     content: "";
-    background-image: url(../icons_svg/line.svg);
+    background: url(../icons_svg/line.svg) no-repeat;
+    position: absolute;
+    left: 330px;
+    height: 30px;
+    width: 30px;
 }
+
+.c2 .content::after {
+    content: "";
+    background: url(../icons_svg/b-mark.svg) no-repeat;
+    position: absolute;
+    left: 330px;
+    height: 30px;
+    width: 30px;
+}
+.c3 .content::after {
+    content: "";
+    background: url(../icons_svg/diamond.svg) no-repeat;
+    position: absolute;
+    left: 330px;
+    height: 30px;
+    width: 30px;
+}
+
